@@ -39,7 +39,7 @@ body {
   margin-block: 2rem;
   border-radius: 1.5rem;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
-  width: clamp(300px, 500px, 550px);
+  width: clamp(300px, 50vw, 700px);
   padding: 2rem;
   background: var(--neutral-rose-white);
 }
@@ -78,6 +78,7 @@ h1 {
   font-family: "Young Serif", serif;
   font-weight: 700;
   color: var(--dark-charcoal);
+  /* margin-top: 0; */
 }
 
 .recipe__text {
@@ -85,6 +86,7 @@ h1 {
   font-weight: 400;
   color: var(--neutral-wedge-brown);
   line-height: 2;
+  font-size: 1rem;
 }
 
 h2 {
@@ -128,6 +130,10 @@ tr {
   height: 3rem;
 }
 
+
+tr .bold{
+  color: var(--clr-primary-nutmeg);
+}
 footer {
   height: 300px;
   display: grid;
